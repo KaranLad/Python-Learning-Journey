@@ -1,4 +1,4 @@
-#function create
+#function createa
 def is_even(number):
     
     #check the number are even or odd
