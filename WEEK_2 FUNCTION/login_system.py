@@ -23,17 +23,18 @@ while True:
     print("Invalid Email! Please enter a Gmail address.")
 #Create password
 
-create_password = input("Create a Password: ")
-same_password = input("Re_enter your password: ")
-Password1 = ("")
+
 
 while True:
+    create_password = input("Create a Password: ")
+    same_password = input("Re_enter your password: ")
+    Register_Password = ("")
 
     if create_password == same_password:
         Register_Password = create_password
         print("Password is created...")
         break
-    print("Passwords do not match.")
+    print("Passwords do not match. Try again.\n")
     
     
 
@@ -46,7 +47,8 @@ while True:
     if Login_ID == Email_ID:
         break
     print("Wrong email_ID! Check email_ID..")
-    while attempt <=3:
+
+while attempt <=3:
             Enter_Password = input("Enter your Password: ")
             if Enter_Password == Register_Password:
                 print("Login Successfully...")
