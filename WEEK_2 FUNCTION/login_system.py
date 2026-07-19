@@ -52,11 +52,12 @@ while attempt <=3:
             Enter_Password = input("Enter your Password: ")
             if Enter_Password == Register_Password:
                 print("Login Successfully...")
+                print(f"Welcome {Full_Name}!")
                 break
 
             print("Wronge Password! ")
             attempt += 1
-            if attempt > 3:        
-                print("your account is locked")    
+if attempt > 3:        
+    print("your account is locked")    
    
 
