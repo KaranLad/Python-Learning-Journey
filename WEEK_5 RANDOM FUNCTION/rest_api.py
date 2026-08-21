@@ -130,3 +130,13 @@ try:
 
 except requests.exceptions.RequestException as e:
     print("API Error:", e)
+
+# ================= (.env) Environment Variables =================
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+api_key = os.getenv("API_KEY")
+
+print(api_key)
