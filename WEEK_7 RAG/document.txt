@@ -1,0 +1,4 @@
+Python is a high-level programming language.
+FastAPI is a Python framework used to build APIs.
+RAG stands for Retrieval-Augmented Generation.
+RAG helps an LLM answer questions using external information.

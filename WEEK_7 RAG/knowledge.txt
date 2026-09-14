@@ -1,0 +1,8 @@
+FastAPI is a Python framework for building APIs.
+It is commonly used for backend development.
+
+ChromaDB is a vector database.
+It is used to store and search vector embeddings.
+
+Python is a programming language.
+It is widely used in artificial intelligence and machine learning.
